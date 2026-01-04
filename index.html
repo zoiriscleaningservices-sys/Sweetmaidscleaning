@@ -21,11 +21,11 @@
             min-height:100vh; 
             display:flex;
             flex-direction:column;
-        }
+        } 
 
         /* Bottom Navigation */
         .bottom-nav {
-            position:fixed; 
+            position:fixed;  
             bottom:0; left:0; right:0; 
             height:80px; 
             background:rgba(0,0,0,0.9); 
@@ -257,7 +257,7 @@
         <div class="nav-container">
             <div class="nav-item active" onclick="show('home')"><i class="fas fa-home"></i><span>My Posts</span></div>
             <div class="nav-item" onclick="show('add')"><i class="fas fa-plus-circle"></i><span>New Post</span></div>
-            <div class="nav-item" onclick="window.location.href='https://sweetmaidcleaning.com/blog/'"><i class="fas fa-globe"></i><span>View Blog</span></div>
+            <div class="nav-item" onclick="window.location.href='https://sweetmaidcleaning.com/cleaning-tips-bradenton-fl/'"><i class="fas fa-globe"></i><span>View Blog</span></div>
             <div class="nav-item" onclick="alert('Sign-out coming soon')"><i class="fas fa-sign-out-alt"></i><span>Sign Out</span></div>
         </div>
     </div>
@@ -309,8 +309,8 @@
 </div>
 
 <script>
-    const SUPABASE_URL = 'https://dwxbzltxsdeshmmtcycv.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR3eGJ6bHR4c2Rlc2htbXRjeWN2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NDg0MzgsImV4cCI6MjA4MjUyNDQzOH0.Z-c_EyQO1ShZDH3wD3WfbvkbcBCIRjGVvyzlUO8gcM4';
+    const SUPABASE_URL = 'https://yyhkdjuafavcnepiknxx.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_hHT5Gx1XxPR7uoYSvmTYAQ_x3NtLmTS';
 
     const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
@@ -608,5 +608,5 @@
 
     window.onload = () => show('home');
 </script>
-</body>
-</html>
+</body> 
+</html> 
